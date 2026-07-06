@@ -1037,3 +1037,21 @@ footer p:last-child{
   padding:28px 20px;
 
 }
+.popup{
+  position: relative;
+}
+
+.closePopup{
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #777;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closePopup:hover{
+  color: #22c55e;
+}
