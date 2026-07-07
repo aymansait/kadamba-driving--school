@@ -596,20 +596,16 @@ Learn Driving With Confidence
 
     <h2>Book a Driving Lesson</h2>
 
-    <input type="text" placeholder="Full Name">
+    <input id="name" type="text" placeholder="Full Name">
 
-    <input type="tel" placeholder="Phone Number">
+<input id="phone" type="tel" placeholder="Phone Number">
 
-    <select>
+<select id="vehicle">
+    <option>Car</option>
+    <option>Bike</option>
+</select>
 
-        <option>Car</option>
-
-        <option>Bike</option>
-
-    </select>
-
-    <input type="text" placeholder="Preferred Time">
-
+<input id="time" type="text" placeholder="Preferred Time">
     <button type="button" id="submitBooking" class="bookButton">
         Submit
     </button>
@@ -618,8 +614,8 @@ Learn Driving With Confidence
 </div>
 
 <script src="script.js"></script>
-
+<script type="module" src="firebase.js"></script>
 </body>
-
 </html>
+
 
