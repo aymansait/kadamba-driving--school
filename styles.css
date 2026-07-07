@@ -945,11 +945,9 @@ footer p:last-child{
 
 }
 
-  .bookButton{
-
-      display:none;
-
-  }
+.navbar .bookButton{
+  display:none;
+}
 
   .logo img{
 
